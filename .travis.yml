@@ -5,3 +5,5 @@ services:
 
 before_install:
 - docker info
+- echo $DOCKER_HOST
+- env
